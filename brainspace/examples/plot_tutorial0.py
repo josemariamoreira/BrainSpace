@@ -23,6 +23,10 @@ Following is example code to run `fmriprep <http://fmriprep.readthedocs.io/>`_ u
 import warnings
 warnings.simplefilter('ignore')
 
+import io
+import sys
+
+
 ################################################################################
 # Confound regression
 # ++++++++++++++++++++++++
